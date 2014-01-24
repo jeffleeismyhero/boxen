@@ -12,7 +12,6 @@ class people::jeffleeismyhero {
   include "chrome"
   include "vlc"
   include "sublime_text_2"
-  include "osxfuse"
   include "freetds"
   include "spotify"
   include "wget"
