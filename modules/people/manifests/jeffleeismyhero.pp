@@ -40,4 +40,3 @@ class people::jeffleeismyhero {
     require => File[$my]
   }
 }
-`
