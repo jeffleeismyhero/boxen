@@ -19,7 +19,6 @@ class people::jeffleeismyhero {
   include "screen"
   include "imagemagick"
   include "postgresapp"
-  include "textmate"
   include textmate::textmate2::release
   include "tmux"
   include "imageoptim"
