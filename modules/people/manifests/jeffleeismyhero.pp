@@ -1,5 +1,4 @@
 class people::jeffleeismyhero {
-  include "evernote"
   include "calibre"
   include "skype"
   include "firefox"
@@ -9,11 +8,9 @@ class people::jeffleeismyhero {
   include "dropbox"
   include "googledrive"
   include "vmware_fusion"
-  include "alfred"
   include "heroku"
   include "chrome"
   include "vlc"
-  include "skitch"
   include "sublime_text_2"
   include "osxfuse"
   include "freetds"
@@ -25,9 +22,7 @@ class people::jeffleeismyhero {
   include "textmate"
   include textmate::textmate2::release
   include "tmux"
-  include "harvest"
   include "imageoptim"
-  include "kindle"
   include "github_for_mac"
   include "colloquy"
   include "arq"
@@ -45,3 +40,4 @@ class people::jeffleeismyhero {
     require => File[$my]
   }
 }
+`
