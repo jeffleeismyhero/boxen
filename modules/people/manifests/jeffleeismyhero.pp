@@ -23,6 +23,7 @@ class people::jeffleeismyhero {
   include "imagemagick"
   include "postgresapp"
   include "textmate"
+  include textmate::textmate2::release
   include "tmux"
   include "harvest"
   include "imageoptim"
