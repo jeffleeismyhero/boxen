@@ -4,7 +4,7 @@ class people::jeffleeismyhero {
   include "skype"
   include "firefox"
   include "mysql"
-  include "iterm2"
+  include iterm2::stable
   include "onepassword"
   include "dropbox"
   include "googledrive"
