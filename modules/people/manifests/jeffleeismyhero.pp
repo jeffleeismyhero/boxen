@@ -24,6 +24,7 @@ class people::jeffleeismyhero {
   include "github_for_mac"
   include "colloquy"
   include "arq"
+  include "qt"
 
   $home     = "/Users/${::boxen_user}"
   $my       = "${home}/my"
